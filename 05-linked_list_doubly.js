@@ -42,3 +42,6 @@ class MyDoublyLinkedList {
 }
 
 let myDoublyLinkedList = new MyDoublyLinkedList(1);
+myDoublyLinkedList.append(50);
+myDoublyLinkedList.append(100);
+console.log("myDoublyLinkedList", myDoublyLinkedList)
